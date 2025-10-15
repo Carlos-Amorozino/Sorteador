@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+img {
+    display: block;
+    margin: 10vh auto 0;
+    width: 25%;
+}
+
+main {
+    display: inline-block;
+    position: relative;
+    left: 40vw;
+    width: auto;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    width: auto;
+    margin-bottom: 5vh;
+}
+
+input {
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px;
+    margin-bottom: 5vh;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 0 5px 40px 0 rgb(255, 255, 255, 0.5);
+}
+
+input:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px 0 rgb(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.35);
+}
+
+button {
+    border-radius: 10px;
+    background: #a2bd1d;
+    box-shadow: 0 5px 40px 0 rgba(174, 197, 70, 1);
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+    width: 30vh;
+    height: 7vh;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #d4ff00;
+    box-shadow: 0 5px 40px 0 rgb(208, 255, 0);
+}
+
+button:active {
+    background: #d4ff00;
+    box-shadow: 0 5px 40px 0 rgb(106, 129, 0);
+}
+
+@media screen and (max-width: 900px) {
+
+    img {
+        width: 70%;
+
+    }
+
+    main {
+        display: block;
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 100vw;
+        margin-top: 20%;
+    }
+
+    div {
+        width: auto;
+        margin: 0 7vw;
+    }
+
+    input,
+    button, p {
+        width: 100%;
+        text-align: center;
+        font-size: 170%;
+    }
+
+    button {
+        margin-top: 10vh;
+    }
+}
