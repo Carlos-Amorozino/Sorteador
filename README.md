@@ -1,4 +1,4 @@
-<h1>Currency converter</h1>
+<h1>Sorteador</h1>
 
 <p>Este projeto foi criado durante processo de aprendizado</p>
 
